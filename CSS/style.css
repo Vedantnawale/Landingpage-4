@@ -1,0 +1,43 @@
+body{
+    background-color:aquamarine;
+    text-align: center;
+}
+.frame h1{
+    font-size: 25px;
+}
+@media screen and (max-width:1440px) {
+    body{
+        background-color: rgb(13, 164, 13);
+        text-align: center;
+    }
+    .frame h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:1024px) {
+    body{
+        background-color: rgb(148, 122, 4);
+        text-align: center;
+    }
+    .frame h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    body{
+        background-color: skyblue;
+        text-align: center;
+    }
+    .frame h1{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:425px) {
+    body{
+        background-color:red;
+        text-align: center;
+    }
+    .frame h1{
+        font-size: 40px;
+    }
+}
