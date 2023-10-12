@@ -4,16 +4,14 @@ body{
 }
 .frame h1{
     font-size: 25px;
-    text-align: center;
 }
 @media screen and (max-width:1440px) {
     body{
         background-color: rgb(13, 164, 13);
-        
+        text-align: center;
     }
     .frame h1{
         font-size: 25px;
-        text-align: center;
     }
 }
 @media screen and (max-width:1024px) {
